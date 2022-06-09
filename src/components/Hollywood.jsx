@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import { holly } from './APIs/ApiHolly';
 const Hollywood = () => {
-  const [dataHolly, setDataHolly] = useContext(holly);
+  const [dataHolly] = useContext(holly);
   return (
     <>
     <div className="contentPage">
