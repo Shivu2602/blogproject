@@ -2,7 +2,7 @@ import React,{ useContext } from 'react'
 import {fit} from './APIs/ApiFit'
 
 const Fitness = () => {
-  const [dataFit, setDataFit] = useContext(fit);
+  const [dataFit] = useContext(fit);
   return (
     <>
     <div className="contentPage">
