@@ -2,7 +2,7 @@ import React,{ useContext } from 'react'
 import {tech} from './APIs/ApiTech'
 
 const Technology = () => {
-  const [dataTech, setDataTech] = useContext(tech);
+  const [dataTech] = useContext(tech);
   return (
     <>
     <div className="contentPage">
